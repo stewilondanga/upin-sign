@@ -260,10 +260,11 @@ span {
   font-size: 24px
 }
 
-/*.btn_submit
-	{background:#4caf50}
+.btn_submit {
+  background: #4caf50
+}
 
-.fb
+/*.fb
 	{background:#3b5998}
 
 .tw
