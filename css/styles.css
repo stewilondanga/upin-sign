@@ -111,11 +111,13 @@ span {
   position: absolute
 }
 
-/*[class*="btn_"],
-.btn-btm
-	{padding:16px;color:#fff}
+[class*="btn_"],
+.btn-btm {
+  padding: 16px;
+  color: #fff
+}
 
-.top,
+/*.top,
 .field
 	{width:100%;display:block;position:relative}
 
