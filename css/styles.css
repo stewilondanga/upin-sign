@@ -56,13 +56,14 @@ input {
   outline: none
 }
 
-/*button,
+button,
 input,
 label,
-span
-	{font-size:16px}
+span {
+  font-size: 16px
+}
 
-form{
+/*form{
 	width:100%;
 	padding:50px;
 	display:flex;
