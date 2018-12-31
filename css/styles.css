@@ -49,11 +49,14 @@ button,
   cursor: pointer
 }
 
-/*button,
-input
-	{position:relative;border:none;outline:none}
-
 button,
+input {
+  position: relative;
+  border: none;
+  outline: none
+}
+
+/*button,
 input,
 label,
 span
