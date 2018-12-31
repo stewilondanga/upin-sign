@@ -145,17 +145,17 @@ span {
   padding: 40px 0
 }
 
-/*.btn-top{
-	background:linear-gradient(315deg,#595959,#fff);
-	width:75px;
-	height:75px;
-	margin:0 10px;
-	color:#888;
-	border-radius:50%;
-	text-shadow:1px 0 #000
-	}
+.btn-top {
+  background: linear-gradient(315deg, #595959, #fff);
+  width: 75px;
+  height: 75px;
+  margin: 0 10px;
+  color: #888;
+  border-radius: 50%;
+  text-shadow: 1px 0 #000
+}
 
-.btn-top:before,
+/*.btn-top:before,
 .btn-top:after
 	{content:"";display:block;position:absolute}
 
