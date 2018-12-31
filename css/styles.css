@@ -117,11 +117,14 @@ span {
   color: #fff
 }
 
-/*.top,
-.field
-	{width:100%;display:block;position:relative}
-
 .top,
+.field {
+  width: 100%;
+  display: block;
+  position: relative
+}
+
+/*.top,
 h1,
 .bottom,
 span
