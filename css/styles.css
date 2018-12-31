@@ -90,16 +90,16 @@ input:focus {
   box-shadow: 0 8px 6px -6px #595959
 }
 
-/*input,
-[class*="btn_"]{
-	width:100%;
-	display:block;
-	position:relative;
-	border-radius:5px;
-	transition:all .5s ease
-	}
+input,
+[class*="btn_"] {
+  width: 100%;
+  display: block;
+  position: relative;
+  border-radius: 5px;
+  transition: all .5s ease
+}
 
-label
+/*label
 	{top:14px;left:8px}
 
 label,
