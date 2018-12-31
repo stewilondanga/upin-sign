@@ -230,16 +230,16 @@ span {
   background: #fff
 }
 
-/*.or span{
-	padding:8px;
-	top:50%;
-	left:50%;
-	z-index:1;
-	border-radius:50%;
-	transform:translate(-50%,-50%)
-	}
+.or span {
+  padding: 8px;
+  top: 50%;
+  left: 50%;
+  z-index: 1;
+  border-radius: 50%;
+  transform: translate(-50%, -50%)
+}
 
-.field
+/*.field
 	{background:#f1f1f1;border-radius:5px}
 
 .margin
