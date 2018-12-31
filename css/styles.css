@@ -367,19 +367,29 @@ When the "Button_Close" clicked, the "show_form" will be removed from the "middl
   }
 }
 
-/*@media (max-width:649px){
-	form
-		{padding:50px 16px;justify-content:center}
+@media (max-width:649px) {
+  form {
+    padding: 50px 16px;
+    justify-content: center
+  }
 
-	.or
-		{width:250px;height:1px;margin:25px 0}
+  .or {
+    width: 250px;
+    height: 1px;
+    margin: 25px 0
+  }
 
-	.bottom
-		{width:100%;position:relative}
+  .bottom {
+    width: 100%;
+    position: relative
+  }
 
-	.rg
-		{border-left:none;border-top:1px solid #fff}
-	}
+  .rg {
+    border-left: none;
+    border-top: 1px solid #fff
+  }
+}
+
 /*                                           ! Responsive Form Ended Here ...
 =======================================================================================================================*/
 /*
