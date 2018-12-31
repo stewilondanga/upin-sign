@@ -86,10 +86,11 @@ input,
   background: transparent
 }
 
-/*input:focus
-	{box-shadow:0 8px 6px -6px #595959}
+input:focus {
+  box-shadow: 0 8px 6px -6px #595959
+}
 
-input,
+/*input,
 [class*="btn_"]{
 	width:100%;
 	display:block;
