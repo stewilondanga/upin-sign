@@ -309,10 +309,11 @@ span {
   }
 }
 
-/*.btn_submit:hover
-	{color:#4caf50}
+.btn_submit:hover {
+  color: #4caf50
+}
 
-.fb:hover
+/*.fb:hover
 	{color:#3b5998}
 
 .tw:hover
