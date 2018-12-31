@@ -248,10 +248,11 @@ span {
   margin: 16px 0
 }
 
-/*.btn_sm
-	{text-align:left}
+.btn_sm {
+  text-align: left
+}
 
-[class*="btn_"]:before{
+/*[class*="btn_"]:before{
 	content:"\0000BB";
 	top:10px;
 	display:none;
