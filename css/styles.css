@@ -340,11 +340,12 @@ span {
 When the "Button_Sign" clicked, the "middle" will be replaced with the "show_form".
 When the "Button_Close" clicked, the "show_form" will be removed from the "middle".
 */
-/*
-.show_form
-	{display:block;animation:fadeup 1s ease}
+.show_form {
+  display: block;
+  animation: fadeup 1s ease
+}
 
-@keyframes fadeup{
+/*@keyframes fadeup{
 	from{bottom:-500px}
 	to{bottom:0}
 	}
