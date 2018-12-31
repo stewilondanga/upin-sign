@@ -124,13 +124,14 @@ span {
   position: relative
 }
 
-/*.top,
+.top,
 h1,
 .bottom,
-span
-	{text-align:center}
+span {
+  text-align: center
+}
 
-.middle,
+/*.middle,
 .bottom
 	{bottom:0;position:absolute}
 
