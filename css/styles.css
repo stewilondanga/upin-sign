@@ -104,11 +104,14 @@ label {
   left: 8px
 }
 
-/*label,
-span
-	{color:#008080;display:block;position:absolute}
+label,
+span {
+  color: #008080;
+  display: block;
+  position: absolute
+}
 
-[class*="btn_"],
+/*[class*="btn_"],
 .btn-btm
 	{padding:16px;color:#fff}
 
