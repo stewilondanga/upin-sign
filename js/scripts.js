@@ -7,12 +7,12 @@ var navigate = (function() {
   });
 })();
 
-/*function form_in(){
-   document.getElementById("Sign_In").classList.add("show_form")
-   document.getElementById("Sign_Up").classList.remove("show_form")
+function form_in() {
+  document.getElementById("Sign_In").classList.add("show_form")
+  document.getElementById("Sign_Up").classList.remove("show_form")
 }
 
-function form_up(){
+/*function form_up(){
    document.getElementById("Sign_Up").classList.add("show_form")
    document.getElementById("Sign_In").classList.remove("show_form")
 }
