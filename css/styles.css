@@ -99,10 +99,12 @@ input,
   transition: all .5s ease
 }
 
-/*label
-	{top:14px;left:8px}
+label {
+  top: 14px;
+  left: 8px
+}
 
-label,
+/*label,
 span
 	{color:#008080;display:block;position:absolute}
 
