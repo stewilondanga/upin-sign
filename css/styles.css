@@ -225,11 +225,12 @@ span {
   height: 182px
 }
 
-/*.or,
-.or span
-	{background:#fff}
+.or,
+.or span {
+  background: #fff
+}
 
-.or span{
+/*.or span{
 	padding:8px;
 	top:50%;
 	left:50%;
