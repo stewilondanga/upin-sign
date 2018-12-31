@@ -155,11 +155,14 @@ span {
   text-shadow: 1px 0 #000
 }
 
-/*.btn-top:before,
-.btn-top:after
-	{content:"";display:block;position:absolute}
+.btn-top:before,
+.btn-top:after {
+  content: "";
+  display: block;
+  position: absolute
+}
 
-.btn-top:before{
+/*.btn-top:before{
 	background:#808080;
 	width:2px;
 	height:45px;
