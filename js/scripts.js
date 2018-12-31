@@ -17,7 +17,7 @@ function form_up() {
   document.getElementById("Sign_In").classList.remove("show_form")
 }
 
-/*function close_form(){
-   document.getElementById("Sign_Up").classList.remove("show_form")
-   document.getElementById("Sign_In").classList.remove("show_form")
+function close_form() {
+  document.getElementById("Sign_Up").classList.remove("show_form")
+  document.getElementById("Sign_In").classList.remove("show_form")
 }
