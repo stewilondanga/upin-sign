@@ -21,6 +21,81 @@
         </a>
     </div>
 
+    <div class="top">
+    	<button class="btn-top" onclick="form_in()">Sign In</button>
+    	<button class="btn-top" onclick="form_up()">Sign Up</button>
+    </div>
+    <div class="middle" id="Sign_In">
+    	<div class="btn-close" onclick="close_form()"><i class="fa fa-close"></i></div>
+    	<h1>Sign In Form</h1>
+    	<form>
+    		<div class="col">
+    			<div class="field">
+    				<label for="username"><i class="fa fa-user"></i></label>
+    				<input name="username" type="text" placeholder="Username" autocomplete="off" required>
+    			</div>
+    			<div class="field margin">
+    				<label for="password"><i class="fa fa-key"></i></label>
+    				<input name="password" type="password" placeholder="Password" autocomplete="off" required>
+    			</div>
+    			<button class="btn_submit" type="submit">Sign In</button>
+    		</div>
+    		<div class="or">
+    			<span>or</span>
+    		</div>
+    		<div class="col">
+    			<button class="btn_sm fb"><i class="fa fa-facebook-square"></i> Sign In with Facebook</button>
+    			<button class="btn_sm tw"><i class="fa fa-twitter-square"></i> Sign In with Twitter</button>
+    			<button class="btn_sm gp"><i class="fa fa-google-plus-square"></i> Sign In with Google&plus;</button>
+    		</div>
+    	</form>
+    	<div class="bottom">
+    		<button class="btn-btm" onclick="form_up()">Need an account &quest;</button>
+    	</div>
+    	<div class="bottom rg">
+    		<button class="btn-btm">Forgot Password &quest;</button>
+    	</div>
+    </div>
+    <div class="middle" id="Sign_Up">
+    	<div class="btn-close" onclick="close_form()"><i class="fa fa-close"></i></div>
+    	<h1>Sign Up Form</h1>
+    	<form>
+    		<div class="col">
+    			<div class="field">
+    				<label for="username"><i class="fa fa-user"></i></label>
+    				<input name="username" type="text" placeholder="Username" autocomplete="off" required>
+    			</div>
+    			<div class="field margin">
+    				<label for="email"><i class="fa fa-envelope"></i></label>
+    				<input name="email" type="text" placeholder="Email" autocomplete="off" required>
+    			</div>
+    			<div class="field">
+    				<label for="password"><i class="fa fa-key"></i></label>
+    				<input name="password" type="password" placeholder="Password" autocomplete="off" required>
+    			</div>
+    		</div>
+    		<div class="or">
+    			<span>or</span>
+    		</div>
+    		<div class="col">
+    			<button class="btn_sm fb"><i class="fa fa-facebook-square"></i> Sign Up with Facebook</button>
+    			<button class="btn_sm tw"><i class="fa fa-twitter-square"></i> Sign Up with Twitter</button>
+    			<button class="btn_sm gp"><i class="fa fa-google-plus-square"></i> Sign Up with Google&plus;</button>
+    		</div>
+    	</form>
+    	<div class="bottom">
+    		<button class="btn-btm">Sign Up</button>
+    	</div>
+    	<div class="bottom rg">
+    		<button class="btn-btm">Cancel</button>
+    	</div>
+    </div>
+
+    <!--This Is Not Part Of Responsive Form-->
+    <a class="me" href="https://codepen.io/uzcho_/pens/popular/?grid_type=list" target="blank_">
+    	<span>My Pens List</span>
+    </a>
+
   <section id="contact">
     <div class="overlay">
       <div class="containers">
