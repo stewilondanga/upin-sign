@@ -277,10 +277,12 @@ span {
   background: #dd4b39
 }
 
-/*[class*="btn_"]:hover
-	{background:#fff;box-shadow:0 8px 6px -6px #595959}
+[class*="btn_"]:hover {
+  background: #fff;
+  box-shadow: 0 8px 6px -6px #595959
+}
 
-[class*="btn_"]:hover:before
+/*[class*="btn_"]:hover:before
 	{display:block;animation:arrow 2s ease infinite}
 
 @keyframes arrow{
