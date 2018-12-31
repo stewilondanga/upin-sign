@@ -12,12 +12,12 @@ function form_in() {
   document.getElementById("Sign_Up").classList.remove("show_form")
 }
 
-/*function form_up(){
-   document.getElementById("Sign_Up").classList.add("show_form")
-   document.getElementById("Sign_In").classList.remove("show_form")
+function form_up() {
+  document.getElementById("Sign_Up").classList.add("show_form")
+  document.getElementById("Sign_In").classList.remove("show_form")
 }
 
-function close_form(){
+/*function close_form(){
    document.getElementById("Sign_Up").classList.remove("show_form")
    document.getElementById("Sign_In").classList.remove("show_form")
 }
