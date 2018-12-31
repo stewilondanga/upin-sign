@@ -72,10 +72,12 @@ form {
   justify-content: space-between
 }
 
-/*h1
-	{font-size:24px;color:#666}
+h1 {
+  font-size: 24px;
+  color: #666
+}
 
-input
+/*input
 	{padding:16px 16px 16px 32px}
 
 input,
