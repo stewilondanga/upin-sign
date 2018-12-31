@@ -131,11 +131,13 @@ span {
   text-align: center
 }
 
-/*.middle,
-.bottom
-	{bottom:0;position:absolute}
+.middle,
+.bottom {
+  bottom: 0;
+  position: absolute
+}
 
-::-webkit-scrollbar
+/*::-webkit-scrollbar
 	{width:0}
 
 .top
