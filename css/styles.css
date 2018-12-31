@@ -220,10 +220,12 @@ span {
   width: 250px
 }
 
-/*.or
-	{width:1px;height:182px}
+.or {
+  width: 1px;
+  height: 182px
+}
 
-.or,
+/*.or,
 .or span
 	{background:#fff}
 
