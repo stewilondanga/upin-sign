@@ -216,10 +216,11 @@ span {
   border-radius: 4px
 }
 
-/*.col
-	{width:250px}
+.col {
+  width: 250px
+}
 
-.or
+/*.or
 	{width:1px;height:182px}
 
 .or,
