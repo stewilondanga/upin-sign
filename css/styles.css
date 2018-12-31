@@ -287,14 +287,29 @@ span {
   animation: arrow 2s ease infinite
 }
 
-/*@keyframes arrow{
-	0%,100%{right:40px;opacity:.25}
-	25%{right:32px;opacity:.5}
-	50%{right:24px;opacity:.75}
-	75%{right:16px;opacity:1}
-	}
+@keyframes arrow {
+  0%, 100% {
+    right: 40px;
+    opacity: .25
+  }
 
-.btn_submit:hover
+  25% {
+    right: 32px;
+    opacity: .5
+  }
+
+  50% {
+    right: 24px;
+    opacity: .75
+  }
+
+  75% {
+    right: 16px;
+    opacity: 1
+  }
+}
+
+/*.btn_submit:hover
 	{color:#4caf50}
 
 .fb:hover
