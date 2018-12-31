@@ -81,11 +81,12 @@ input {
   padding: 16px 16px 16px 32px
 }
 
-/*input,
-.btn-btm
-	{background:transparent}
+input,
+.btn-btm {
+  background: transparent
+}
 
-input:focus
+/*input:focus
 	{box-shadow:0 8px 6px -6px #595959}
 
 input,
