@@ -317,10 +317,11 @@ span {
   color: #3b5998
 }
 
-/*.tw:hover
-	{color:#55acee}
+.tw:hover {
+  color: #55acee
+}
 
-.gp:hover
+/*.gp:hover
 	{color:#dd4b39}
 
 .bottom
