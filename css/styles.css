@@ -321,10 +321,11 @@ span {
   color: #55acee
 }
 
-/*.gp:hover
-	{color:#dd4b39}
+.gp:hover {
+  color: #dd4b39
+}
 
-.bottom
+/*.bottom
 	{background:#333;width:50%;display:block}
 
 .rg
