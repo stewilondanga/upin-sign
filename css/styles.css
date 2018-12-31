@@ -361,12 +361,13 @@ When the "Button_Close" clicked, the "show_form" will be removed from the "middl
   }
 }
 
-/*@media screen and (min-width:321px) and (max-width:649px){
-	.middle
-		{width:320px}
-	}
+@media screen and (min-width:321px) and (max-width:649px) {
+  .middle {
+    width: 320px
+  }
+}
 
-@media (max-width:649px){
+/*@media (max-width:649px){
 	form
 		{padding:50px 16px;justify-content:center}
 
