@@ -445,7 +445,7 @@ When the "Button_Close" clicked, the "show_form" will be removed from the "middl
   color: #04d;
 }
 
-/*.cal td {
+.cal td {
   padding: 0 2px;
   line-height: 100%;
 }
