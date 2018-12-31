@@ -264,10 +264,11 @@ span {
   background: #4caf50
 }
 
-/*.fb
-	{background:#3b5998}
+.fb {
+  background: #3b5998
+}
 
-.tw
+/*.tw
 	{background:#55acee;margin:16px 0}
 
 .gp
