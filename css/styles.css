@@ -282,10 +282,12 @@ span {
   box-shadow: 0 8px 6px -6px #595959
 }
 
-/*[class*="btn_"]:hover:before
-	{display:block;animation:arrow 2s ease infinite}
+[class*="btn_"]:hover:before {
+  display: block;
+  animation: arrow 2s ease infinite
+}
 
-@keyframes arrow{
+/*@keyframes arrow{
 	0%,100%{right:40px;opacity:.25}
 	25%{right:32px;opacity:.5}
 	50%{right:24px;opacity:.75}
