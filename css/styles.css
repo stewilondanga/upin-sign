@@ -141,10 +141,11 @@ span {
   width: 0
 }
 
-/*.top
-	{padding:40px 0}
+.top {
+  padding: 40px 0
+}
 
-.btn-top{
+/*.btn-top{
 	background:linear-gradient(315deg,#595959,#fff);
 	width:75px;
 	height:75px;
