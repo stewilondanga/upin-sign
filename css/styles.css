@@ -398,7 +398,6 @@ When the "Button_Close" clicked, the "show_form" will be removed from the "middl
   margin: 20px auto;
 }
 
-/*
 #contact h1 {
   font-family: helvetica;
   font-weight: normal;
@@ -412,7 +411,7 @@ When the "Button_Close" clicked, the "show_form" will be removed from the "middl
   border-bottom: 3px solid #f3f3f3;
 }
 
-.cal {
+/*.cal {
   display: inline-block;
   background: #ffe;
   color: #555;
