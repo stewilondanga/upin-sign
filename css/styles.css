@@ -1,4 +1,4 @@
-body {
+/*body {
   text-align: center;
   font-family: courier;
   background-image: url("../assets/image.jpeg");
@@ -8,8 +8,10 @@ body {
 
 .my_social {
   position: absolute;
+  background: grey;
   top: 25px;
   left: 25px;
+  z-index: 10;
 }
 
 .my_social a {
@@ -20,6 +22,295 @@ body {
 .my_social a img {
   height: 1.5em;
 }
+
+@charset "utf8";
+
+/*                                          ! Responsive Form Started Here ...
+=======================================================================================================================*/
+/*
+*,
+*:after,
+*:before,
+html
+	{box-sizing:border-box}
+
+body{
+	background:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEQAAAAiCAAAAADD1SApAAAA5UlEQVR4AYXUMW6EQBAF0TpSS4T//vda2dO0GgiKwDuItwRl7ef6v5L+qNSc+5EL+jZpkTZJm3LBkBxRx2TI5YLzriQ5j//O9+0hLmgz4hoz71BB56kRc552KtjFpvqjnQtWsdHJbueCVWx9Z7dzwSpWQ2q3c8GudMN6tHPBo1hV/9ntXLCK7SsZ44Jd7CXqGBdMsQ+ZdipYldYvf7dzwfwHWqRNDXXBa2Eq9dkgFfgGucA3yAW+QS7wDXKBb5ALfINc4BvkAt8gF/gGucA3yAW+QS7wDXKBb5ALfINc4BvkAt8gFz+Bp+mo8f2VxAAAAABJRU5ErkJggg==')repeat center;
+	font-family:Tahoma,Geneva,sans-serif;
+	font-style:normal;
+	font-weight:400
+	}
+
+body,
+html
+	{height:100%}
+
+body,
+h1
+	{margin:0;padding:0}
+
+button,
+.btn-close
+	{cursor:pointer}
+
+button,
+input
+	{position:relative;border:none;outline:none}
+
+button,
+input,
+label,
+span
+	{font-size:16px}
+
+form{
+	width:100%;
+	padding:50px;
+	display:flex;
+	position:relative;
+	flex-flow:row wrap;
+	justify-content:space-between
+	}
+
+h1
+	{font-size:24px;color:#666}
+
+input
+	{padding:16px 16px 16px 32px}
+
+input,
+.btn-btm
+	{background:transparent}
+
+input:focus
+	{box-shadow:0 8px 6px -6px #595959}
+
+input,
+[class*="btn_"]{
+	width:100%;
+	display:block;
+	position:relative;
+	border-radius:5px;
+	transition:all .5s ease
+	}
+
+label
+	{top:14px;left:8px}
+
+label,
+span
+	{color:#008080;display:block;position:absolute}
+
+[class*="btn_"],
+.btn-btm
+	{padding:16px;color:#fff}
+
+.top,
+.field
+	{width:100%;display:block;position:relative}
+
+.top,
+h1,
+.bottom,
+span
+	{text-align:center}
+
+.middle,
+.bottom
+	{bottom:0;position:absolute}
+
+::-webkit-scrollbar
+	{width:0}
+
+.top
+	{padding:40px 0}
+
+.btn-top{
+	background:linear-gradient(315deg,#595959,#fff);
+	width:75px;
+	height:75px;
+	margin:0 10px;
+	color:#888;
+	border-radius:50%;
+	text-shadow:1px 0 #000
+	}
+
+.btn-top:before,
+.btn-top:after
+	{content:"";display:block;position:absolute}
+
+.btn-top:before{
+	background:#808080;
+	width:2px;
+	height:45px;
+	top:-40px;
+	left:50%;
+	z-index:-1;
+	transform:translate(-50%,0)
+	}
+
+.btn-top:after{
+	background:#e6e6e6;
+    padding:80px 0 0 80px;
+    bottom:0;
+	left:0;
+    opacity:0;
+	border-radius:50%;
+    transition:all .5s ease
+	}
+
+.btn-top:active:after{
+	padding:0;
+    bottom:10px;
+	left:15px;
+    opacity:1;
+    transition:0s
+	}
+
+.middle{
+	background-color:#fff;
+	background-image:repeating-linear-gradient(135deg,#fff,rgba(0,0,0,.3) 10%,#fff 20%);
+	background-position:center;
+	background-repeat:repeat;
+	background-size:10px 10px;
+	width:650px;
+	height:411px;
+	padding:50px 0 0 0;
+	left:50%;
+	display:none;
+	overflow:auto;
+	transform:translate(-50%,0);
+	border-radius:10px 10px 0 0
+	}
+
+.btn-close{
+	background:rgba(255,0,0,.5);
+	padding:8px 9px;
+	top:8px;
+	right:8px;
+	display:block;
+	position:absolute;
+	border-radius:4px
+	}
+
+.col
+	{width:250px}
+
+.or
+	{width:1px;height:182px}
+
+.or,
+.or span
+	{background:#fff}
+
+.or span{
+	padding:8px;
+	top:50%;
+	left:50%;
+	z-index:1;
+	border-radius:50%;
+	transform:translate(-50%,-50%)
+	}
+
+.field
+	{background:#f1f1f1;border-radius:5px}
+
+.margin
+	{margin:16px 0}
+
+.btn_sm
+	{text-align:left}
+
+[class*="btn_"]:before{
+	content:"\0000BB";
+	top:10px;
+	display:none;
+	position:absolute;
+	font-size:24px
+	}
+
+.btn_submit
+	{background:#4caf50}
+
+.fb
+	{background:#3b5998}
+
+.tw
+	{background:#55acee;margin:16px 0}
+
+.gp
+	{background:#dd4b39}
+
+[class*="btn_"]:hover
+	{background:#fff;box-shadow:0 8px 6px -6px #595959}
+
+[class*="btn_"]:hover:before
+	{display:block;animation:arrow 2s ease infinite}
+
+@keyframes arrow{
+	0%,100%{right:40px;opacity:.25}
+	25%{right:32px;opacity:.5}
+	50%{right:24px;opacity:.75}
+	75%{right:16px;opacity:1}
+	}
+
+.btn_submit:hover
+	{color:#4caf50}
+
+.fb:hover
+	{color:#3b5998}
+
+.tw:hover
+	{color:#55acee}
+
+.gp:hover
+	{color:#dd4b39}
+
+.bottom
+	{background:#333;width:50%;display:block}
+
+.rg
+	{right:0;border-left:1px solid #fff}
+
+/*
+When the "Button_Sign" clicked, the "middle" will be replaced with the "show_form".
+When the "Button_Close" clicked, the "show_form" will be removed from the "middle".
+*/
+/*
+.show_form
+	{display:block;animation:fadeup 1s ease}
+
+@keyframes fadeup{
+	from{bottom:-500px}
+	to{bottom:0}
+	}
+
+@media (max-width:320px){
+	.middle
+		{width:100%}
+	}
+
+@media screen and (min-width:321px) and (max-width:649px){
+	.middle
+		{width:320px}
+	}
+
+@media (max-width:649px){
+	form
+		{padding:50px 16px;justify-content:center}
+
+	.or
+		{width:250px;height:1px;margin:25px 0}
+
+	.bottom
+		{width:100%;position:relative}
+
+	.rg
+		{border-left:none;border-top:1px solid #fff}
+	}
+/*                                           ! Responsive Form Ended Here ...
+=======================================================================================================================*/
+/*
 
 .containers {
   width: 520px;
@@ -33,6 +324,7 @@ body {
   color: #c0c0c0;
   padding-top: 50px;
   padding-bottom: 10px;
+  padding-left: 600px;
   width: 375px;
   margin: 0 auto;
   border-bottom: 3px solid #f3f3f3;
