@@ -391,14 +391,14 @@ When the "Button_Close" clicked, the "show_form" will be removed from the "middl
 }
 
 /*                                           ! Responsive Form Ended Here ...
-=======================================================================================================================*/
-/*
-
+=======================================================================================================================
+*/
 .containers {
   width: 520px;
   margin: 20px auto;
 }
 
+/*
 #contact h1 {
   font-family: helvetica;
   font-weight: normal;
