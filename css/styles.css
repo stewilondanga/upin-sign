@@ -273,10 +273,11 @@ span {
   margin: 16px 0
 }
 
-/*.gp
-	{background:#dd4b39}
+.gp {
+  background: #dd4b39
+}
 
-[class*="btn_"]:hover
+/*[class*="btn_"]:hover
 	{background:#fff;box-shadow:0 8px 6px -6px #595959}
 
 [class*="btn_"]:hover:before
