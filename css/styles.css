@@ -244,10 +244,11 @@ span {
   border-radius: 5px
 }
 
-/*.margin
-	{margin:16px 0}
+.margin {
+  margin: 16px 0
+}
 
-.btn_sm
+/*.btn_sm
 	{text-align:left}
 
 [class*="btn_"]:before{
