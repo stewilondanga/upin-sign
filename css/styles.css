@@ -206,17 +206,17 @@ span {
   border-radius: 10px 10px 0 0
 }
 
-/*.btn-close{
-	background:rgba(255,0,0,.5);
-	padding:8px 9px;
-	top:8px;
-	right:8px;
-	display:block;
-	position:absolute;
-	border-radius:4px
-	}
+.btn-close {
+  background: rgba(255, 0, 0, .5);
+  padding: 8px 9px;
+  top: 8px;
+  right: 8px;
+  display: block;
+  position: absolute;
+  border-radius: 4px
+}
 
-.col
+/*.col
 	{width:250px}
 
 .or
