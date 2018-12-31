@@ -137,10 +137,11 @@ span {
   position: absolute
 }
 
-/*::-webkit-scrollbar
-	{width:0}
+::-webkit-scrollbar {
+  width: 0
+}
 
-.top
+/*.top
 	{padding:40px 0}
 
 .btn-top{
