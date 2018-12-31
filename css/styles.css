@@ -345,12 +345,17 @@ When the "Button_Close" clicked, the "show_form" will be removed from the "middl
   animation: fadeup 1s ease
 }
 
-/*@keyframes fadeup{
-	from{bottom:-500px}
-	to{bottom:0}
-	}
+@keyframes fadeup {
+  from {
+    bottom: -500px
+  }
 
-@media (max-width:320px){
+  to {
+    bottom: 0
+  }
+}
+
+/*@media (max-width:320px){
 	.middle
 		{width:100%}
 	}
