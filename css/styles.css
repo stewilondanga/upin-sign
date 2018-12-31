@@ -182,15 +182,15 @@ span {
   transition: all .5s ease
 }
 
-/*.btn-top:active:after{
-	padding:0;
-    bottom:10px;
-	left:15px;
-    opacity:1;
-    transition:0s
-	}
+.btn-top:active:after {
+  padding: 0;
+  bottom: 10px;
+  left: 15px;
+  opacity: 1;
+  transition: 0s
+}
 
-.middle{
+/*.middle{
 	background-color:#fff;
 	background-image:repeating-linear-gradient(135deg,#fff,rgba(0,0,0,.3) 10%,#fff 20%);
 	background-position:center;
